@@ -1,0 +1,154 @@
+*{
+	border: 1px solid red !important;
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@media only screen and (max-width: 500px){
+	p{
+		background-color: blue;
+	}
+}
+
+@media only screen and (min-width: 501px) and (max-width: 750px){
+	p{
+		background-color: green;
+	}
+}
+h1{
+	color: green;
+}
+
+.pumping{
+	text-align: center;
+}
+.row{
+	width: 100%;
+	display: flex;
+}
+
+.col-1{
+	width: 8.33%;
+}
+
+.col-2{
+	width: 16.66%;
+}
+
+.col-3{
+	width: 25%;
+}
+
+.col-4{
+	width: 33.33%;
+}
+
+.col-5{
+	width: 50%;
+}
+
+.col-6{
+	width: 66.66%;
+}
+
+.redbox{
+	float: left;
+	background-color: red;
+	height: 100px;
+	width: 100px;
+	margin-bottom: 10px;
+}
+
+.greenbox{
+	float: left;
+	background-color:green;
+	height: 100px;
+	width: 100px;
+	margin-bottom: 10px;
+}
+
+.bluebox{
+	float: left;
+	background-color: blue;
+	height: 100px;
+	width: 100px;
+	margin-bottom: 10px;
+}
+
+.yellowbox{
+	float: left;
+	background-color: yellow;
+	height: 100px;
+	width: 100px;
+	margin-bottom: 10px;
+}
+
+@media screen and (max-width: 800px){
+	.bigbox{
+		display: none;
+	}
+}
+
+.bigbox{
+	float: left;
+	background-color: purple;
+	height: 430px;
+	width: 430px;
+	margin-left: 230px;
+}
+
+.boxes{
+	float: left;
+	height: 430px;
+}
+
+.clear{
+	clear: both;
+}
+
+.orangebox{
+	float: right;
+	background-color: orange;
+	height: 100px;
+	width: 100px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.blackbox{
+	float: right;
+	background-color: black;
+	height: 100px;
+	width: 100px;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.brownbox{
+	float: right;
+	background-color: brown;
+	height: 100px;
+	width: 100px;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.greybox{
+	float: right;
+	background-color: grey;
+	height: 100px;
+	width: 100px;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.moreBoxes{
+	width:765px;
+}
